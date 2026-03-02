@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap');
 
 :root {
-  --primary: #6366f1;
-  --primary-hover: #4f46e5;
-  --secondary: #06b6d4;
-  --accent: #f43f5e;
-  --bg-dark: #030712;
-  --bg-card: rgba(17, 24, 39, 0.7);
+  --primary: #f97316;
+  /* Vibrant Orange */
+  --primary-hover: #ea580c;
+  --secondary: #fbbf24;
+  /* Amber */
+  --accent: #ff4d00;
+  /* Deep Orange */
+  --bg-dark: #000000;
+  /* Pure Black */
+  --bg-card: rgba(15, 15, 15, 0.7);
   --text-main: #f9fafb;
   --text-muted: #9ca3af;
-  --glass-border: rgba(255, 255, 255, 0.1);
-  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(249, 115, 22, 0.15);
+  /* Orange tinted border */
+  --glass-bg: rgba(255, 255, 255, 0.03);
 
   --font-heading: 'Outfit', sans-serif;
   --font-body: 'Inter', sans-serif;
@@ -95,7 +100,7 @@ ul {
 .btn-primary:hover {
   background-color: var(--primary-hover);
   transform: translateY(-2px);
-  box-shadow: 0 10px 15px -3px rgba(99, 102, 241, 0.3);
+  box-shadow: 0 10px 15px -3px rgba(249, 115, 22, 0.3);
 }
 
 .btn-outline {
@@ -118,7 +123,7 @@ section {
   font-size: 2.5rem;
   margin-bottom: 3rem;
   text-align: center;
-  background: linear-gradient(135deg, #fff 0%, #94a3b8 100%);
+  background: linear-gradient(135deg, #fff 0%, #fb923c 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
