@@ -16,7 +16,7 @@ const Hero = () => {
                 maxWidth: '900px',
                 lineHeight: 1.1,
                 letterSpacing: '-0.02em',
-                background: 'linear-gradient(135deg, #ffffff 0%, #64748b 100%)',
+                background: 'linear-gradient(135deg, #ffffff 0%, #fb923c 100%)',
                 WebkitBackgroundClip: 'text',
                 backgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',
