@@ -36,9 +36,7 @@ const Navbar = () => {
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-                <a href="#contact" className="btn btn-primary" style={{ padding: '0.5rem 1.25rem' }}>
-                    Consultation
-                </a>
+
             </div>
         </nav>
     );
